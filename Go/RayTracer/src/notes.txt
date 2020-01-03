@@ -1,0 +1,30 @@
+Ponderings during the process
+
+The original program I wrote made one raycast for every pixel in the framebuffer
+and then mapped those rays onto the image plane / world view. I wanted to make it
+so a photo of any resolution could be made, so the number of rays shot is defined
+only for the image plane. In sum: The size of the resulting image is not relative to the number
+of rays shot
+
+Deciding on exported fields: In all cases for this program I need to access my fields of these objects
+and the getters and setters would just be smell
+
+Constructors (not default duh): I like the principle but I would then make the type not exported so
+that it couldn't be initialized using t := Type{} and used as nil, but then I couldn't reference the
+type as a subtype in another struct which happens kinda frequently here. Seemed like too much effort
+for a small project
+
+Scaling image plane pixel size to image: Wanted a clever way that doesn't use 4 nested for loops
+but this is the way that works well and consistently and i don't want to put in the effort
+
+Field pointers for types: Idk, I can't decide. I don't like passing the pointers around using &
+since I try to use pointers in my methods as much as possible. It would probably be easier to just
+let each field that is type be a pointer, then pass the pointer on initialization
+DO THIS REFACTOR
+
+I don't like the switch statements in the phong intensity function. It's messy trying to merge the
+computations of all 3 colors into one function. It was cleaner in the C++ version
+
+The Go color library is annoying since in order to work with the values individually I have to retrieve
+them, convert them to float64, and divide by 255 to map it from 0 to 1. Then the reverse. I should consider
+making my own color library

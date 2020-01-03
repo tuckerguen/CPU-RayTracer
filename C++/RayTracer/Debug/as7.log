@@ -1,0 +1,17 @@
+﻿  main.cpp
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\frame_buffer.h(49,29): warning C4018:  '<': signed/unsigned mismatch
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\frame_buffer.h(72,29): warning C4018:  '<': signed/unsigned mismatch
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(48,15): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(48,13): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(49,17): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(49,14): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(50,18): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(50,14): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(51,17): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(51,13): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(80,28): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(80,22): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(80,16): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(173,28): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+D:\Downloads\GuenAS7 (1)\GuenAS7\as7\main.cpp(174,27): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+  as7.vcxproj -> D:\Downloads\GuenAS7 (1)\GuenAS7\as7\Debug\as7.exe
